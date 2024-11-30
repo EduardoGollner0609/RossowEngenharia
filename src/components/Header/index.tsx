@@ -48,18 +48,7 @@ export default function Header() {
                     </ul>
                     <div className="mobile-menu" onClick={handleClickOpenMobileOptions}>☰</div>
                 </div>
-                <div className="options-contact">
-                    <a href="https://www.instagram.com/rossoweng/">
-                        <img src={instagramIcon} alt="" />
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=552799872-6089&text=Olá, vim do seu site, me interessei e queria conversar.">
-                        <img src={whatsappIcon} alt="" />
-                    </a>
-                    <a href="https://www.facebook.com/rossowengenharia/">
-
-                        <img src={facebookIcon} alt="" />
-                    </a>
-                </div>
+               
             </nav>
             {
                 optionsMobile &&

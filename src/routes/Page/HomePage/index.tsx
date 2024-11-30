@@ -10,6 +10,18 @@ export default function HomePage() {
 
         <main>
             <section id="section-home-page">
+                <div className="home-page-content container">
+
+                    <div className="home-page-card-invite">
+                        <h2>Engenharia com qualidade</h2>
+                        <p>Seus projetos dos sonhos podem se tornar realidade com muita qualidade e carinho da Rossow Engenharia, conheça mais sobre nós.</p>
+                        <a href="">Quero conhecer mais</a>
+                    </div>
+                </div>
+
+            </section>
+            <section id="section-home-page-introduction">
+
                 <div className="home-page-introduction container">
                     <h1>Rossow Engenharia e Tecnologia</h1>
 
