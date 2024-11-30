@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+:root {
+  --rwe-color-primary: #041653;
+  --rwe-color-secondary: #fff;
+  --rwe-color-tertiary: #d9d9d9;
+}
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +18,12 @@ a:hover {
   color: unset;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   width: 100%;
-  max-width: 1120px;
+  max-width: 1150px;
   margin: 0 auto;
 }
