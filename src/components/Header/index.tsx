@@ -21,7 +21,7 @@ export default function Header() {
         <header>
             <nav className="container">
                 <img src={logo} alt="" />
-                <ul></ul>
+
                 <div className="options-navegation">
                     <ul>
                         <li>
@@ -63,40 +63,40 @@ export default function Header() {
             </nav>
             {
                 optionsMobile &&
-<>
-<div className="options-navegation-mobile">
-                    <div className="close-mobile-menu-icon" onClick={handleClickCloseMobileOptions}>X</div>
-                    <ul>
-                        <li>
-                            <NavLink to="">
-                                Início
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="">
-                                Sobre
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="">
-                                Serviços
-                            </NavLink>
-                        </li>
-                        <li>
+                <>
+                    <div className="options-navegation-mobile">
+                        <div className="close-mobile-menu-icon" onClick={handleClickCloseMobileOptions}>X</div>
+                        <ul>
+                            <li>
+                                <NavLink to="">
+                                    Início
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="">
+                                    Sobre
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="">
+                                    Serviços
+                                </NavLink>
+                            </li>
+                            <li>
 
-                            <NavLink to="">
-                                Contato
-                            </NavLink>
-                        </li>
-                    </ul>
+                                <NavLink to="">
+                                    Contato
+                                </NavLink>
+                            </li>
+                        </ul>
 
 
-                </div>
-<div className="overlay-menu">
+                    </div>
+                    <div className="overlay-menu">
 
-</div>
-</>
-                
+                    </div>
+                </>
+
 
             }
 

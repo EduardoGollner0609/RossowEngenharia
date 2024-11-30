@@ -17,10 +17,12 @@
 }
 header {
   padding: 5px 20px;
+  background-color: var(--rwe-color-primary);
 }
 
 nav img {
   width: 320px;
+  border-radius: 5px;
 }
 
 nav {
@@ -46,7 +48,7 @@ nav {
 .options-navegation a:hover {
   font-size: 20px;
   background-color: var(--rwe-color-secondary);
-  color: #0d17a5;
+  color: var(--rwe-color-primary);
   border-radius: 20px;
   transition: 0.4s;
   padding: 5px;

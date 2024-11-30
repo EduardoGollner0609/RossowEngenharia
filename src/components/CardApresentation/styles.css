@@ -1,0 +1,17 @@
+.card-apresentation {
+  width: 300px;
+  background-color: var(--rwe-color-secondary);
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-apresentation h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.card-apresentation p {
+  font-size: 18px;
+}
