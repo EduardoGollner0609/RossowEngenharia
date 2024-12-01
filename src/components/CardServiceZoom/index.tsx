@@ -16,7 +16,7 @@ export default function CardServiceZoom({ imgUrl, description, closeZoomFunction
         <div className="background-service-example-zoom" >
             <div className="card-service-example-zoom">
                 <div className="card-service-example-close">
-                    <p onClick={closeZoom}>X</p>
+                    <p onClick={closeZoom}>X<span>fechar</span></p>
                 </div>
 
                 <div className="card-service-example-zoom-img">

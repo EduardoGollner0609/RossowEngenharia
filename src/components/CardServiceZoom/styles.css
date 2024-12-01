@@ -39,15 +39,25 @@
 
 .card-service-example-close {
   width: 100%;
-  display: flex;
-  justify-content: end;
 }
 
 .card-service-example-close p {
   cursor: pointer;
   font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  & span {
+    font-size: 16px;
+  }
+  max-width: 80px;
 }
 
 .card-service-example-close p:hover {
-  color: var(--rwe-color-primary);
+    transition: 0.4s;
+  color: var(--rwe-color-secondary);
+  background-color: var(--rwe-color-primary);
+  border-radius: 5px;
 }
