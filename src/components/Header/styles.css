@@ -6,15 +6,6 @@
   display: none;
 }
 
-.options-contact {
-  display: flex;
-  gap: 10px;
-}
-
-.options-contact img {
-  height: 48px;
-  width: 48px;
-}
 header {
   padding: 5px 20px;
 }
@@ -126,6 +117,7 @@ nav {
     width: 100%;
     display: block;
   }
+  
   .overlay-menu {
     background-color: #00000073;
     width: 100%;
