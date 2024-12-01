@@ -17,6 +17,11 @@
   padding: 10px 20px;
 }
 
+#section-home-page-performances {
+  padding: 10px 20px;
+  background-color: var(--rwe-color-secondary);
+}
+
 .home-page-introduction {
   color: var(--rwe-color-quartiary);
   display: flex;
@@ -48,30 +53,13 @@
   justify-content: space-between;
 }
 
-.home-page-about-us-perfomances-options img {
-  width: 200px;
-}
-
-.home-page-about-us-performances-card {
-  background-color: var(--rwe-color-secondary);
-  width: 200px;
-}
-
-.home-page-about-us-performances-card h3 {
-  font-size: 20px;
-}
-
-#section-home-page-performances {
-  padding: 10px 20px;
-  background-color: var(--rwe-color-secondary);
-}
-
 .home-page-about-us-performances {
   background-color: var(--rwe-color-primary);
   border-radius: 20px;
   padding: 10px 15px;
   color: var(--rwe-color-secondary);
 }
+
 .home-page-about-us-performances h3 {
   text-align: center;
   font-size: 28px;
