@@ -13,7 +13,7 @@ export default function CardServiceZoom({ imgUrl, description, closeZoomFunction
     }
 
     return (
-        <div className="background-service-example-zoom">
+        <div className="background-service-example-zoom" onClick={closeZoom}>
             <div className="card-service-example-zoom">
                 <div className="card-service-example-close">
                     <p onClick={closeZoom}>X</p>
