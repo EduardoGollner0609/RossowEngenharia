@@ -9,6 +9,14 @@
   align-items: center;
 }
 
+#section-home-page-introduction {
+  padding: 10px 20px;
+}
+
+#section-home-page-clients {
+  padding: 10px 20px;
+}
+
 .home-page-introduction {
   color: var(--rwe-color-quartiary);
   display: flex;
@@ -26,7 +34,7 @@
 
 .home-page-about-us-description-resume {
   font-size: 22px;
-  background-color: var(--rwe-color-secondary);
+  border: 2px solid var(--rwe-color-primary);
   border-radius: 20px;
   padding: 10px 15px;
   & span {
@@ -87,6 +95,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 10px;
 }
 
@@ -103,4 +112,30 @@
   background-color: var(--rwe-color-primary);
   border-radius: 20px;
   color: var(--rwe-color-secondary);
+}
+
+.home-page-clients-top h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-page-clients-contet {
+  border: 2px solid var(--rwe-color-primary);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.home-page-clients-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.home-page-clients-bottom img {
+  border: 2px solid var(--rwe-color-primary);
+  padding: 5px;
+  border-radius: 5px;
+  height: 100px;
 }

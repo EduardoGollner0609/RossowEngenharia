@@ -1,6 +1,6 @@
 .card-apresentation {
   width: 300px;
-  background-color: var(--rwe-color-secondary);
+  border: 2px solid var(--rwe-color-primary);
   padding: 15px;
   border-radius: 20px;
   text-align: center;

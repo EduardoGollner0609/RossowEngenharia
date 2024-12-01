@@ -1,5 +1,16 @@
 import CardApresentation from '../../../components/CardApresentation';
 import './styles.css';
+import arcelorMittalImg from '../../../assets/arcelor-mittal-img.png';
+import ifesImg from '../../../assets/ifes-img.png';
+import philipsImg from '../../../assets/philips-img.jpg';
+import plamontImg from '../../../assets/plamont-img.jpg';
+import walmartImg from '../../../assets/walmart-img.png';
+import multivixImg from '../../../assets/multivix-vitoria-img.png';
+import policiaMilitarImg from '../../../assets/policia-militar-img.jpg';
+import technipImg from '../../../assets/technip-img.png';
+import stemacImg from '../../../assets/stemac-img.jpg';
+import expressoJundiaiImg from '../../../assets/expresso-jundiai-img.png';
+import engerEngenhariaImg from '../../../assets/enger-engenharia-img.jpg';
 
 export default function HomePage() {
 
@@ -15,7 +26,7 @@ export default function HomePage() {
                     <div className="home-page-card-invite">
                         <h2>Engenharia com qualidade</h2>
                         <p>Seus projetos dos sonhos podem se tornar realidade com muita qualidade e carinho da Rossow Engenharia, conheça mais sobre nós.</p>
-                        <a href="">Quero conhecer mais</a>
+                        <a href="#section-home-page-introduction">Quero conhecer mais</a>
                     </div>
                 </div>
 
@@ -66,7 +77,24 @@ export default function HomePage() {
 
             </section>
             <section id="section-home-page-clients">
-                <h3>Nosso clientes</h3>
+                <div className="home-page-clients-contet container">
+                    <div className="home-page-clients-top">
+                        <h3>Nosso clientes</h3>
+                    </div>
+                    <div className="home-page-clients-bottom">
+                        <img src={arcelorMittalImg} alt="" />
+                        <img src={ifesImg} alt="" />
+                        <img src={philipsImg} alt="" />
+                        <img src={plamontImg} alt="" />
+                        <img src={walmartImg} alt="" />
+                        <img src={multivixImg} alt="" />
+                        <img src={policiaMilitarImg} alt="" />
+                        <img src={technipImg} alt="" />
+                        <img src={stemacImg} alt="" />
+                        <img src={expressoJundiaiImg} alt="" />
+                        <img src={engerEngenhariaImg} alt="" />
+                    </div></div>
+
             </section>
 
         </main>
