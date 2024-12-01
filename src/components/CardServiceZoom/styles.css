@@ -1,0 +1,49 @@
+.background-service-example-zoom {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+}
+
+.card-service-example-zoom {
+  height: 80vh;
+  padding: 20px;
+  width: 70vw;
+  margin: 0 auto;
+  background-color: var(--rwe-color-secondary);
+  border-radius: 5px;
+}
+
+.card-service-example-zoom-img {
+  width: 100%;
+  text-align: center;
+}
+
+.card-service-example-zoom p {
+  font-size: 18px;
+}
+
+.card-service-example-description {
+  width: 100%;
+  text-align: center;
+}
+
+.card-service-example-close {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.card-service-example-close p {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.card-service-example-close p:hover {
+  color: var(--rwe-color-primary);
+}
