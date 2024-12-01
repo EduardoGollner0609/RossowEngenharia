@@ -1,3 +1,8 @@
 #section-services-page {
   padding: 10px 20px;
 }
+
+.services-list-example {
+  display: flex;
+}
+

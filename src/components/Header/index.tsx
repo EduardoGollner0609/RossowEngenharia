@@ -35,7 +35,7 @@ export default function Header() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/serviços">
                                 Serviços
                             </NavLink>
                         </li>
@@ -62,7 +62,7 @@ export default function Header() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="">
+                                <NavLink to="/serviços">
                                     Sobre
                                 </NavLink>
                             </li>

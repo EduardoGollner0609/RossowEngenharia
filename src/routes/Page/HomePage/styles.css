@@ -5,8 +5,6 @@
   background-size: cover;
   background-attachment: fixed;
   height: 70vh;
-  display: flex;
-  align-items: center;
 }
 
 #section-home-page-introduction {
@@ -74,6 +72,12 @@
   font-size: 18px;
 }
 
+.home-page-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .home-page-card-invite {
   background-color: var(--rwe-color-secondary);
   max-width: 400px;
@@ -91,7 +95,7 @@
   font-size: 25px;
 }
 .home-page-card-invite p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .home-page-card-invite a {
