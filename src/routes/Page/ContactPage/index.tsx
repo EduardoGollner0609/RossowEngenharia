@@ -92,6 +92,7 @@ address">
 
                         <div className="contact-details-social-network">
                             <h3>Redes Sociais</h3>
+                            <div className="contact-details-social-network-icons">
                             <a href="">
                                 <img src={instagramIcon} alt="" />
                             </a>
@@ -103,6 +104,8 @@ address">
                                 <img src={whatsappIcon} alt="" />
                             </a>
 
+                            </div>
+                           
 
                         </div>
                     </div>
