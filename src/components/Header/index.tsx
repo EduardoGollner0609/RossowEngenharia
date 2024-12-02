@@ -2,9 +2,6 @@ import './styles.css';
 import logo from '../../assets/logo.jpg';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import facebookIcon from '../../assets/facebook-icon.svg';
-import instagramIcon from '../../assets/instagram-icon.svg';
-import whatsappIcon from '../../assets/whatsapp-icon.svg';
 
 
 export default function Header() {

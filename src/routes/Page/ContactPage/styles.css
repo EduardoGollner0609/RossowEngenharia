@@ -1,0 +1,12 @@
+#section-contact-page {
+  padding: 0 20px;
+}
+
+#section-contact-page h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-page-location {
+  text-align: center;
+}
