@@ -1,4 +1,5 @@
-import Location from '../../components/Location';
+
+import Location from '../../../components/Location';
 import './styles.css';
 
 export default function AboutUsPage() {
