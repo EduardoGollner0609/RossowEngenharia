@@ -14,8 +14,9 @@ import engerEngenhariaImg from '../../../assets/enger-engenharia-img.jpg';
 
 export default function HomePage() {
 
-    const textoMissao: string = "Prestar serviços de engenharia e tecnologia, sempre na busca da satisfação do cliente."
-    const textoVisao: string = "Crescimento contínuo com qualidade sendo reconhecida pelo mercado como excelente empresa de engenharia."
+    const textoMissao: string = "Prestar serviços de engenharia e tecnologia, sempre na busca da satisfação do cliente.";
+    const textoVisao: string = "Crescimento contínuo com qualidade sendo reconhecida pelo mercado como excelente empresa de engenharia.";
+    const textoValores: string = "Comprometimento com o cliente, inovação, segurança, qualidade e rentabilidade.";
 
     return (
 
@@ -39,14 +40,7 @@ export default function HomePage() {
                     <div className="home-page-about-us-cards-list">
                         <CardApresentation title="Missão" description={textoMissao} />
                         <CardApresentation title="Visão" description={textoVisao} />
-                        <div className="card-apresentation">
-                            <h3>Valores</h3>
-                            <p>• Comprometimento com o cliente.</p>
-                            <p>• Inovação</p>
-                            <p>• Segurança</p>
-                            <p>• Qualidade.</p>
-                            <p>• Rentabilidade.</p>
-                        </div>
+                        <CardApresentation title="Valores" description={textoValores} />
                     </div>
                     <div className="home-page-about-us-description-resume">
                         <p>A <span>Rossow Engenharia</span> tem como filosofia o atendimento personalizado com o objetivo de satisfazer as necessidades do cliente, sendo em diferencial de mercado numa área bastante competitiva.</p>

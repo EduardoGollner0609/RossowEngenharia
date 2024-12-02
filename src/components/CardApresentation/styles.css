@@ -1,5 +1,5 @@
 .card-apresentation {
-  width: 300px;
+  max-width: 400px;
   border: 2px solid var(--rwe-color-primary);
   padding: 15px;
   border-radius: 20px;
