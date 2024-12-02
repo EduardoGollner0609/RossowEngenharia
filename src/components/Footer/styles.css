@@ -54,3 +54,16 @@ footer li a {
   margin: auto auto;
   width: 400px;
 }
+
+@media (max-width: 768px) {
+  .footer-options {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-sections {
+    display: none;
+  }
+}
