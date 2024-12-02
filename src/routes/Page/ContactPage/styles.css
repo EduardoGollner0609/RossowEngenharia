@@ -8,7 +8,6 @@
 }
 
 .contact-details {
-  width: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -21,8 +20,8 @@
   color: var(--rwe-color-secondary);
 }
 
-.contact-details p{
-    font-size: 18px;
+.contact-details p {
+  font-size: 18px;
 }
 
 .contact-details h3 {
@@ -31,6 +30,8 @@
 
 .contact-content {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .contact-form {
@@ -80,17 +81,22 @@
 .contact-form-credentials input {
   outline: none;
   padding: 10px 15px;
+  font-size: 16px;
   height: 50px;
   border: 2px solid var(--rwe-color-primary);
   border-radius: 5px;
-  width: 250px;
+  width: 300px;
 }
 
 .contact-form-message textarea {
   resize: none;
-  width: 300px;
+  outline: none;
+  width: 350px;
   height: 100%;
+  font-size: 16px;
+  border-radius: 5px;
   padding: 10px 15px;
+  border: 2px solid var(--rwe-color-primary);
 }
 
 .contact-page-location {
@@ -101,4 +107,80 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-form-inputs {
+    flex-direction: column;
+  }
+
+  .contact-form-credentials input {
+    font-size: 16px;
+    height: 50px;
+    border: 2px solid var(--rwe-color-primary);
+    border-radius: 5px;
+    width: 350px;
+  }
+
+  .contact-form-message textarea {
+    resize: none;
+    outline: none;
+    width: 350px;
+    height: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 2px solid var(--rwe-color-primary);
+  }
+  .contact-form-submit-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .contact-form-credentials input {
+    padding: 6px 10px;
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .contact-form-message textarea {
+    width: 300px;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .contact-details p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .contact-details {
+    width: 280px;
+  }
+  .contact-details p {
+    font-size: 14px;
+  }
+  .contact-form {
+    width: 280px;
+  }
+
+  .contact-form-credentials input {
+    padding: 6px 10px;
+    font-size: 14px;
+    width: 250px;
+  }
+
+  .contact-form-message textarea {
+    width: 250px;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
 }
