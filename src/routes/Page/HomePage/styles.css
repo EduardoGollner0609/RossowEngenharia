@@ -81,7 +81,9 @@
 .home-page-card-invite {
   background-color: var(--rwe-color-secondary);
   max-width: 400px;
-  height: 350px;
+  overflow-y: auto;
+  height: 90%;
+  max-height: 385px;
   border-radius: 10px;
   padding: 20px;
   display: flex;

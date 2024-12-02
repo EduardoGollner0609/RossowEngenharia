@@ -16,12 +16,12 @@ import service14 from '../../../assets/projeto-uso-mutuo-ultracom.avif';
 import service15 from '../../../assets/projeto-combate-incendio-catedral.avif';
 
 import CardService from '../../../components/CardService';
-import CardServiceZoom from '../../../components/CardServiceZoom';
 
 export default function ServicePage() {
     return (
         <main>
             <section id="section-services-page-examples">
+           
                 <div className="services-examples-content container">
                     <h2>Serviços</h2>
                     <div className="services-list-example">

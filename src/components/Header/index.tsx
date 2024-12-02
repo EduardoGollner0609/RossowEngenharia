@@ -30,7 +30,7 @@ export default function Header() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/sobre">
                                 Sobre
                             </NavLink>
                         </li>
@@ -48,7 +48,7 @@ export default function Header() {
                     </ul>
                     <div className="mobile-menu" onClick={handleClickOpenMobileOptions}>☰</div>
                 </div>
-               
+
             </nav>
             {
                 optionsMobile &&
