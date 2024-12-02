@@ -4,16 +4,5 @@
 
 .about-us-localization {
   margin: 10px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.about-us-localization h2 {
-  text-transform: uppercase;
-
-  & span {
-    color: var(--rwe-color-primary);
-  }
+  text-align: center;
 }

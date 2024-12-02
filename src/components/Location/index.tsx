@@ -1,3 +1,5 @@
+import './styles.css';
+
 export default function Location() {
     return (
         <div className="location">
