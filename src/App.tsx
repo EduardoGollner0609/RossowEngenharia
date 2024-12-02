@@ -3,7 +3,8 @@ import './App.css'
 import Page from './routes/Page'
 import HomePage from './routes/Page/HomePage'
 import ServicePage from './routes/Page/ServicePage'
-import AboutUsPage from './routes/AboutUsPage'
+import ContactPage from './routes/Page/ContactPage'
+import AboutUsPage from './routes/Page/AboutUsPage'
 
 function App() {
 
@@ -14,11 +15,9 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/servicos" element={<ServicePage />} />
           <Route path="/sobre" element={<AboutUsPage />} />
+          <Route path="/contato" element={<ContactPage />} />
         </Route>
-
       </Routes>
-
-
     </BrowserRouter>
   )
 }
