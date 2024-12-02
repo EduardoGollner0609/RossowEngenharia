@@ -1,6 +1,7 @@
 import './styles.css';
 
 export default function Location() {
+
     return (
         <div className="location">
             <h2>Nosso <span>Endereço</span></h2>
@@ -9,6 +10,6 @@ export default function Location() {
                 height="450"
                 style={{ border: "0;" }}
                 loading="lazy" ></iframe>
-        </div>
+        </div >
     );
 }

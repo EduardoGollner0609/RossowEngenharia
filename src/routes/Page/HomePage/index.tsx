@@ -41,9 +41,11 @@ export default function HomePage() {
                         <CardApresentation title="Visão" description={textoVisao} />
                         <div className="card-apresentation">
                             <h3>Valores</h3>
-                            <p>• Comprometimento com o cliente;</p>
-                            <p>• Rentabilidade;</p>
+                            <p>• Comprometimento com o cliente.</p>
+                            <p>• Inovação</p>
+                            <p>• Segurança</p>
                             <p>• Qualidade.</p>
+                            <p>• Rentabilidade.</p>
                         </div>
                     </div>
                     <div className="home-page-about-us-description-resume">

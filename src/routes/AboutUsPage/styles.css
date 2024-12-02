@@ -1,5 +1,44 @@
 #section-about-us {
+  padding: 0 20px;
+}
+
+#section-about-us h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--rwe-color-primary);
+}
+
+.about-us-introduction {
   padding: 10px 20px;
+  border: 2px solid var(--rwe-color-primary);
+  border-radius: 5px;
+  max-height: 600px;
+  max-width: 900px;
+  overflow-y: auto;
+}
+
+.about-us-introduction p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  & span {
+    font-weight: 600;
+  }
+}
+
+.about-us-introduction span {
+  font-size: 18px;
+}
+
+.about-us-introduction h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.about-us-introduction h2 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .about-us-localization {
