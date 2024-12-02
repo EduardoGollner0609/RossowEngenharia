@@ -4,6 +4,9 @@ import './styles.css'
 import { PUBLIC_ID, SERVICE_ID, TEMPLATE_ID } from '../../../utils/system';
 import Location from '../../../components/Location';
 import CardEmailSuccess from '../../../components/CardEmailSuccess';
+import instagramIcon from '../../../assets/instagram-icon.svg';
+import facebookIcon from '../../../assets/facebook-icon.svg';
+import whatsappIcon from '../../../assets/whatsapp-icon.svg';
 
 
 export default function ContactPage() {
@@ -53,29 +56,78 @@ export default function ContactPage() {
         <main>
             <section id="section-contact-page">
                 <h2>Contato</h2>
-                <form id="contact-form" onSubmit={sendEmail}>
-                    <label>Name</label>
-                    <input type="text" name="name" value={name} onChange={(event) => setName(event.target.value)} placeholder='Nome' required />
-                    <label>Email</label>
-                    <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder='Email' required />
-                    <label>Assunto</label>
-                    <input type="text" name="subject" value={subject} onChange={(event) => setSubject(event.target.value)} placeholder='Assunto' />
-                    <label>Message</label>
-                    <textarea name="message" value={message} onChange={(event) => setMessage(event.target.value)} placeholder='Mensagem' required></textarea>
-                    <input type="submit" value="Send" />
-                </form>
+
+
                 {
                     emailSent &&
                     <CardEmailSuccess name={nameAuthorMessage} closeCardSuccess={closeCardSuccess} />
                 }
 
-                <div className="contact-content">
-                    <h3>Telefones</h3>
-                    <p>Tel: 027-3317-3754</p>
-                    <p>Cel: 027-99872-6089 </p>
-                    <h3>Emails: </h3>
-                    <p>aquiles@rossowengenharia.com.br</p>
-                    <p>contato@rossowengenharia.com.br</p>
+                <div className="contact-content container">
+
+                    <div className="contact-details">
+
+                        <div className="contact-details-phones">
+                            <h3>Telefones</h3>
+                            <p>Tel: 027-3317-3754</p>
+                            <p>Cel: 027-99872-6089 </p>
+                        </div>
+                        <div className="contact-details-emails">
+                            <h3>Emails: </h3>
+                            <p>aquiles@rossowengenharia.com.br</p>
+                            <p>contato@rossowengenharia.com.br</p>
+                        </div>
+
+
+
+                        <div className="contact-details-
+address">
+                            <h3>Endereço</h3>
+                            <p>
+                                Rua Aleixo Neto, 322 Sala 307
+                                Santa Lúcia, Vitória ES
+                            </p>
+                        </div>
+
+
+                        <div className="contact-details-social-network">
+                            <h3>Redes Sociais</h3>
+                            <a href="">
+                                <img src={instagramIcon} alt="" />
+                            </a>
+                            <a href="">
+                                <img src={facebookIcon} alt="" />
+                            </a>
+
+                            <a href="">
+                                <img src={whatsappIcon} alt="" />
+                            </a>
+
+
+                        </div>
+                    </div>
+
+
+                    <div className="contact-form">
+                        <h3>Fale Conosco</h3>
+                        <form onSubmit={sendEmail}>
+                            <div className="contact-form-inputs">
+                                <div className="contact-form-credentials">
+                                    <input type="text" name="name" value={name} onChange={(event) => setName(event.target.value)} placeholder='Nome' required />
+                                    <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder='Email' required />
+                                    <input type="text" name="subject" value={subject} onChange={(event) => setSubject(event.target.value)} placeholder='Assunto' />
+                                </div>
+                                <div className="contact-form-message">
+                                    <textarea name="message" value={message} onChange={(event) => setMessage(event.target.value)} placeholder='Mensagem' required></textarea>
+                                </div>
+                            </div>
+                            <div className="contact-form-submit-button">
+                                <input type="submit" value="Enviar" />
+                            </div>
+
+                        </form>
+                    </div>
+
                 </div>
                 <div className="contact-page-location container">
                     <Location />
