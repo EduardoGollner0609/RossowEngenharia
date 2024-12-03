@@ -46,18 +46,27 @@ export default function Footer() {
                     <div className="footer-sections">
                         <h4>Seções</h4>
                         <ul>
-                            <li><NavLink to="/">
-                                Início
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                Sobre
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                Serviços
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                Contato
-                            </NavLink></li>
+                            <li>
+                                <NavLink to="/">
+                                    Início
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/sobre">
+                                    Sobre
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/servicos">
+                                    Serviços
+                                </NavLink>
+                            </li>
+                            <li>
+
+                                <NavLink to="/contato">
+                                    Contato
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
 

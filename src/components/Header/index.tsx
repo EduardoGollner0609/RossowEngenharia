@@ -2,6 +2,7 @@ import './styles.css';
 import logo from '../../assets/logo.jpg';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Header() {
@@ -17,12 +18,13 @@ export default function Header() {
     return (
         <header>
             <nav className="container">
-                <img src={logo} alt="" />
-
+                <Link to="/">
+                    <img src={logo} alt="" />
+                </Link>
                 <div className="options-navegation">
                     <ul>
                         <li>
-                            <NavLink to="">
+                            <NavLink to="/">
                                 Início
                             </NavLink>
                         </li>
@@ -54,23 +56,23 @@ export default function Header() {
                         <div className="close-mobile-menu-icon" onClick={handleClickCloseMobileOptions}>X</div>
                         <ul>
                             <li>
-                                <NavLink to="">
+                                <NavLink to="/" onClick={handleClickCloseMobileOptions}>
                                     Início
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/serviços">
+                                <NavLink to="/sobre" onClick={handleClickCloseMobileOptions}>
                                     Sobre
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="">
+                                <NavLink to="/servicos" onClick={handleClickCloseMobileOptions}>
                                     Serviços
                                 </NavLink>
                             </li>
                             <li>
 
-                                <NavLink to="">
+                                <NavLink to="/contato" onClick={handleClickCloseMobileOptions}>
                                     Contato
                                 </NavLink>
                             </li>

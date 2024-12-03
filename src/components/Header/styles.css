@@ -49,7 +49,14 @@ nav {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 870px) {
+  .mobile-menu {
+    display: flex;
+    font-size: 40px;
+    color: var(--rwe-color-primary);
+    cursor: pointer;
+    padding: 0 10px;
+  }
   .close-mobile-menu-icon {
     margin-left: 10px;
     text-align: left;
@@ -69,14 +76,6 @@ nav {
 
   .options-navegation ul {
     display: none;
-  }
-
-  .mobile-menu {
-    display: flex;
-    font-size: 40px;
-    color: var(--rwe-color-primary);
-    cursor: pointer;
-    padding: 0 10px;
   }
 
   .mobile-menu:hover {
@@ -117,7 +116,7 @@ nav {
     width: 100%;
     display: block;
   }
-  
+
   .overlay-menu {
     background-color: #00000073;
     width: 100%;
