@@ -1,6 +1,7 @@
 
 import Location from '../../../components/Location';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 export default function AboutUsPage() {
     return (
@@ -50,10 +51,19 @@ export default function AboutUsPage() {
                     <br />
                     <br />
                     <p> Com a <span>Rossow Engenharia e Tecnologia</span>, você tem a garantia de um parceiro estratégico, comprometido com o sucesso de seu projeto. Entre em contato conosco e descubra como podemos transformar suas ideias em realidade com soluções inovadoras e eficazes.</p>
-
-
                 </div>
 
+                <div className="about-us-page-card-invite container">
+                    <div className="about-us-page-card-invite-item">
+                        <p>Deseja ver mais sobre nossos serviços?</p>
+                        <Link to="/servicos">Sim, quero ver mais.</Link>
+                    </div>
+                    <div className="about-us-page-card-invite-item">
+                        <p>Tem alguma duvida ou deseja falar com a gente?</p>
+                        <Link to="/contato">Sim quero falar conosco.</Link>
+                    </div>
+
+                </div>
                 <div className="about-us-localization container">
                     <Location />
                 </div>

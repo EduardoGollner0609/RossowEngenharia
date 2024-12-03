@@ -69,8 +69,8 @@ export default function ContactPage() {
 
                         <div className="contact-details-phones">
                             <h3>Telefones</h3>
-                            <p>Tel: 027-3317-3754</p>
-                            <p>Cel: 027-99872-6089 </p>
+                            <p>Tel: (027) 3317-3754</p>
+                            <p>Cel: (027) 99872-6089 </p>
                         </div>
                         <div className="contact-details-emails">
                             <h3>Emails: </h3>
@@ -93,19 +93,19 @@ address">
                         <div className="contact-details-social-network">
                             <h3>Redes Sociais</h3>
                             <div className="contact-details-social-network-icons">
-                            <a href="">
-                                <img src={instagramIcon} alt="" />
-                            </a>
-                            <a href="">
-                                <img src={facebookIcon} alt="" />
-                            </a>
+                                <a href="">
+                                    <img src={instagramIcon} alt="" />
+                                </a>
+                                <a href="">
+                                    <img src={facebookIcon} alt="" />
+                                </a>
 
-                            <a href="">
-                                <img src={whatsappIcon} alt="" />
-                            </a>
+                                <a href="">
+                                    <img src={whatsappIcon} alt="" />
+                                </a>
 
                             </div>
-                           
+
 
                         </div>
                     </div>

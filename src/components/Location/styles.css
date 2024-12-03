@@ -1,6 +1,7 @@
 .location h2 {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 5px;
   & span {
     color: var(--rwe-color-primary);
   }

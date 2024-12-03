@@ -9,7 +9,7 @@ export default function Location() {
                 width="850"
                 height="450"
                 style={{ border: "0;" }}
-                loading="lazy" ></iframe>
+                loading="lazy"></iframe>
         </div >
     );
 }

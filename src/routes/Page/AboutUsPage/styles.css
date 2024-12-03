@@ -48,6 +48,38 @@
   justify-content: center;
 }
 
+.about-us-page-card-invite {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--rwe-color-primary);
+  border-radius: 5px;
+  max-height: 600px;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-us-page-card-invite-item {
+  text-align: center;
+}
+.about-us-page-card-invite p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: var(--rwe-color-secondary);
+}
+
+.about-us-page-card-invite a {
+  background-color: var(--rwe-color-secondary);
+  padding: 5px 8px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .about-us-page-card-invite {
+    flex-direction: column;
+  }
+}
 @media (max-width: 576px) {
   #section-about-us h1 {
     text-align: center;
