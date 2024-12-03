@@ -196,3 +196,9 @@
     max-width: 260px;
   }
 }
+
+@media (max-height: 445px) {
+  .home-page-card-invite a {
+    display: none;
+  }
+}
