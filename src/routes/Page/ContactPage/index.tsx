@@ -93,14 +93,14 @@ address">
                         <div className="contact-details-social-network">
                             <h3>Redes Sociais</h3>
                             <div className="contact-details-social-network-icons">
-                                <a href="">
+                                <a href="https://www.instagram.com/rossoweng/">
                                     <img src={instagramIcon} alt="" />
                                 </a>
-                                <a href="">
+                                <a href="https://www.facebook.com/aquiles.elerrossow">
                                     <img src={facebookIcon} alt="" />
                                 </a>
 
-                                <a href="">
+                                <a href="https://api.whatsapp.com/send?phone=552799872-6089&text=Olá,%20tudo%20bem?%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20a%20respeito%20da%20Rossow%20Engenharia.">
                                     <img src={whatsappIcon} alt="" />
                                 </a>
 
