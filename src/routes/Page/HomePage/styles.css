@@ -120,6 +120,7 @@
   border: 2px solid var(--rwe-color-primary);
   padding: 10px 15px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .home-page-clients-bottom {
@@ -156,7 +157,7 @@
 @media (max-width: 576px) {
   .home-page-card-invite {
     height: 90%;
-    max-height: 350px;
+    max-height: 380px;
     border-radius: 10px;
     padding: 10px;
   }
@@ -180,10 +181,6 @@
 }
 
 @media (max-width: 420px) {
-  .home-page-card-invite {
-    max-height: 360px;
-  }
-
   .home-page-introduction h1 {
     font-size: 24px;
   }

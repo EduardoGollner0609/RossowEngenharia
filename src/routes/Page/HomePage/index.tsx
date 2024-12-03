@@ -89,7 +89,8 @@ export default function HomePage() {
                         <img src={stemacImg} alt="" />
                         <img src={expressoJundiaiImg} alt="" />
                         <img src={engerEngenhariaImg} alt="" />
-                    </div></div>
+                    </div>
+                </div>
 
             </section>
 
