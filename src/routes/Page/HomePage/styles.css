@@ -61,6 +61,7 @@
 
 .home-page-about-us-performances h3 {
   text-align: center;
+  text-transform: uppercase;
   font-size: 28px;
 }
 
@@ -86,7 +87,7 @@
   height: 100%;
   max-height: 385px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +97,8 @@
 }
 
 .home-page-card-invite h2 {
-  font-size: 25px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 .home-page-card-invite p {
   font-size: 22px;
@@ -112,6 +114,7 @@
 
 .home-page-clients-top h3 {
   text-align: center;
+  text-transform: uppercase;
   font-size: 24px;
   margin-bottom: 10px;
 }
