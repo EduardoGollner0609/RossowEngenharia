@@ -20,8 +20,6 @@ export default function Footer() {
                                     <p> (027) 99872-6089</p>
                                 </a>
                             </li>
-
-
                             <li>
                                 <a href="https://www.instagram.com/rossoweng/">
                                     <img src={InstagramIcon} alt="" />
@@ -47,24 +45,39 @@ export default function Footer() {
                         <h4>Seções</h4>
                         <ul>
                             <li>
-                                <NavLink to="/">
-                                    Início
+                                <NavLink to="/inicio" className={({ isActive }) =>
+                                    isActive ? "option-navegation-footer" : ""
+                                }>
+                                    <p>
+                                        Início
+                                    </p>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/sobre">
-                                    Sobre
+                                <NavLink to="/sobre" className={({ isActive }) =>
+                                    isActive ? "option-navegation-footer" : ""
+                                }>
+                                    <p>
+                                        Sobre
+                                    </p>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/servicos">
-                                    Serviços
+                                <NavLink to="/servicos" className={({ isActive }) =>
+                                    isActive ? "option-navegation-footer" : ""
+                                }>
+                                    <p>
+                                        Serviços
+                                    </p>
                                 </NavLink>
                             </li>
                             <li>
-
-                                <NavLink to="/contato">
-                                    Contato
+                                <NavLink to="/contato" className={({ isActive }) =>
+                                    isActive ? "option-navegation-footer" : ""
+                                }>
+                                    <p>
+                                        Contato
+                                    </p>
                                 </NavLink>
                             </li>
                         </ul>

@@ -55,6 +55,13 @@ footer li a {
   width: 400px;
 }
 
+.option-navegation-footer p {
+  width: 100%;
+  font-weight: 600;
+  color: var(--rwe-color-primary);
+  background-color: #fff;
+}
+
 @media (max-width: 768px) {
   .footer-options {
     flex-wrap: wrap;

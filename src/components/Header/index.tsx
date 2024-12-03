@@ -18,30 +18,45 @@ export default function Header() {
     return (
         <header>
             <nav className="container">
-                <Link to="/">
+                <Link to="/inicio">
                     <img src={logo} alt="" />
                 </Link>
                 <div className="options-navegation">
                     <ul>
                         <li>
-                            <NavLink to="/">
-                                Início
+                            <NavLink to="/inicio" className={({ isActive }) =>
+                                isActive ? "option-navegation-header" : ""
+                            }>
+                                <p>
+                                    Início
+                                </p>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/sobre">
-                                Sobre
+                            <NavLink to="/sobre" className={({ isActive }) =>
+                                isActive ? "option-navegation-header" : ""
+                            }>
+                                <p>
+                                    Sobre
+                                </p>
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/servicos">
-                                Serviços
+                            <NavLink to="/servicos" className={({ isActive }) =>
+                                isActive ? "option-navegation-header" : ""
+                            }>
+                                <p>
+                                    Serviços
+                                </p>
                             </NavLink>
                         </li>
                         <li>
-
-                            <NavLink to="/contato">
-                                Contato
+                            <NavLink to="/contato" className={({ isActive }) =>
+                                isActive ? "option-navegation-header" : ""
+                            }>
+                                <p>
+                                    Contato
+                                </p>
                             </NavLink>
                         </li>
                     </ul>
@@ -56,24 +71,40 @@ export default function Header() {
                         <div className="close-mobile-menu-icon" onClick={handleClickCloseMobileOptions}>X</div>
                         <ul>
                             <li>
-                                <NavLink to="/" onClick={handleClickCloseMobileOptions}>
-                                    Início
+                                <NavLink to="/inicio" onClick={handleClickCloseMobileOptions} className={({ isActive }) =>
+                                    isActive ? "option-navegation-header-mobile" : ""
+                                }>
+                                    <p>
+                                        Início
+                                    </p>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/sobre" onClick={handleClickCloseMobileOptions}>
-                                    Sobre
+                                <NavLink to="/sobre" onClick={handleClickCloseMobileOptions} className={({ isActive }) =>
+                                    isActive ? "option-navegation-header-mobile" : ""
+                                }>
+                                    <p>
+                                        Sobre
+                                    </p>
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/servicos" onClick={handleClickCloseMobileOptions}>
-                                    Serviços
+                                <NavLink to="/servicos" onClick={handleClickCloseMobileOptions} className={({ isActive }) =>
+                                    isActive ? "option-navegation-header-mobile" : ""
+                                }>
+                                    <p>
+                                        Serviços
+                                    </p>
                                 </NavLink>
                             </li>
                             <li>
 
-                                <NavLink to="/contato" onClick={handleClickCloseMobileOptions}>
-                                    Contato
+                                <NavLink to="/contato" onClick={handleClickCloseMobileOptions} className={({ isActive }) =>
+                                    isActive ? "option-navegation-header-mobile" : ""
+                                }>
+                                    <p>
+                                        Contato
+                                    </p>
                                 </NavLink>
                             </li>
                         </ul>

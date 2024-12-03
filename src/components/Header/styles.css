@@ -35,7 +35,7 @@ nav {
   color: var(--rwe-color-secondary);
 }
 
-.options-navegation a:hover {
+.options-navegation a p:hover {
   font-size: 20px;
   background-color: var(--rwe-color-secondary);
   color: var(--rwe-color-primary);
@@ -43,6 +43,22 @@ nav {
   transition: 0.4s;
   padding: 5px;
 }
+
+.option-navegation-header p {
+  font-weight: 600;
+  border-radius: 20px;
+  color: var(--rwe-color-primary);
+  background-color: #fff;
+  padding: 5px;
+}
+
+.option-navegation-header-mobile p {
+  font-weight: 600;
+  color: var(--rwe-color-primary);
+  background-color: #fff;
+  padding: 10px;
+}
+
 @media (max-width: 960px) {
   .options-contact {
     display: none;
