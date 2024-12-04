@@ -160,6 +160,11 @@ nav {
     width: 80%;
   }
 
+
+nav a {
+width: 80%
+}
+
   .mobile-menu {
     font-size: 35px;
   }
