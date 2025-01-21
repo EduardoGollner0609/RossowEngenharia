@@ -2,6 +2,7 @@
   height: 250px;
   max-width: 500px;
   width: 70%;
+  height: 320px;
   background-color: var(--rwe-color-primary);
   border-radius: 5px;
   color: var(--rwe-color-secondary);
@@ -52,4 +53,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .card-message-success h4 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
 }

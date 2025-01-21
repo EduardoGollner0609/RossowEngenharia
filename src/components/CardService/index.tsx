@@ -23,7 +23,7 @@ export default function CardService({ imgUrl, description }: Props) {
     return (
         <>
             <div className="card-service-item" onClick={openZoom}>
-                <img src={imgUrl} alt="" />
+                <img src={imgUrl} alt="" loading="lazy" />
                 <p>{description}</p>
             </div>
             {

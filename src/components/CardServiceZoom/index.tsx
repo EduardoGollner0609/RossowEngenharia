@@ -20,7 +20,7 @@ export default function CardServiceZoom({ imgUrl, description, closeZoomFunction
                 </div>
 
                 <div className="card-service-example-zoom-img">
-                    <img src={imgUrl} alt="" />
+                    <img src={imgUrl} alt="" loading="lazy" />
                 </div>
                 <div className="card-service-example-description">
                     <p>{description}

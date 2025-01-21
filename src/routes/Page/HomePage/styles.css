@@ -85,7 +85,7 @@
   max-width: 400px;
   overflow-y: auto;
   height: 100%;
-  max-height: 385px;
+  max-height: 345px;
   border-radius: 10px;
   padding: 10px;
   display: flex;
@@ -97,11 +97,12 @@
 }
 
 .home-page-card-invite h2 {
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase;
 }
+
 .home-page-card-invite p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .home-page-card-invite a {
@@ -166,11 +167,12 @@
   }
 
   .home-page-card-invite h2 {
-    font-size: 24px;
-  }
-  .home-page-card-invite p {
     font-size: 20px;
-    width: 200px;
+  }
+
+  .home-page-card-invite p {
+    font-size: 18px;
+    width: 250px;
   }
 
   .home-page-card-invite a {
@@ -188,8 +190,11 @@
     font-size: 24px;
   }
 
-  .home-page-card-invite a {
-    display: none;
+  .home-page-card-invite h2 {
+    font-size: 20px;
+  }
+  .home-page-card-invite p {
+    font-size: 18px;
   }
 
   .home-page-clients-bottom img {
