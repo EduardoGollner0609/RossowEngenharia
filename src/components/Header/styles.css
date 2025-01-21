@@ -157,8 +157,13 @@ nav {
     padding: 5px 10px;
   }
   nav img {
-    width: 80%;
+    width: 90%;
   }
+
+
+nav a {
+width: 70%
+}
 
   .mobile-menu {
     font-size: 35px;

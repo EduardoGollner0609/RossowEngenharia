@@ -48,7 +48,7 @@ footer {
 footer li a {
   display: flex;
   align-items: center;
-  width: 190px;
+  width: 200px;
   margin-bottom: 5px;
 }
 .footer-details-enterprise {
