@@ -48,9 +48,11 @@ footer {
 footer li a {
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 220px;
   margin-bottom: 5px;
+  white-space: nowrap;
 }
+
 .footer-details-enterprise {
   margin: auto auto;
   width: 400px;
